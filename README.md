@@ -2,7 +2,9 @@
 
 EmImageWater 是一个用于给图片添加水印的 Flutter 应用。
 
-**作者**: dismind, emmind
+**作者**: 
+disminde, emmind
+ © 2025 GitHub: disminde Email: lmingrui220@gmail.com
 
 ## 说明
 

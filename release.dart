@@ -2,7 +2,7 @@
 // 1. 检查是否安装了 cider 
 //      dart pub global activate cider
 //      cider version
-//      $env:Path += ";C:\Users\admin\AppData\Local\Pub\Cache\bin";[Environment]::SetEnvironmentVariable("Path", $env:Path, "User") 
+//      $env:Path += ";$home\AppData\Local\Pub\Cache\bin";[Environment]::SetEnvironmentVariable("Path", $env:Path, "User") 
 
 // 2. 检查是否在 Flutter 项目根目录
 
