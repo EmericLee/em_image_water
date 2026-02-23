@@ -38,6 +38,16 @@
 
 **Fully local processing, private and secure, cross-platform support, safe to use!**
 
+### UI Preview
+
+<p align="center">
+  <img src="docs/screen.png" width="800" alt="EmImageWater UI Preview">
+</p>
+
+<p align="center">
+  <em>Clean and intuitive user interface with real-time watermark preview</em>
+</p>
+
 ### Key Features
 
 | Feature | Description |
@@ -384,7 +394,7 @@ dart run release.dart build   # Build number +1
 
 ### 4.6 FAQ
 
-#### Q: Build fails,提示找不到 Flutter SDK?
+#### Q: Build fails, Flutter SDK not found?
 
 A: Ensure Flutter SDK is properly installed and added to PATH:
 ```bash

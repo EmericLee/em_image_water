@@ -32,11 +32,21 @@
 
 ## 0. 项目简介
 
-**EmImageWater** 是一款基于 Flutter 开发的跨平台图像水印工具，支持为图片添加可自定义的文字水印。无论是单张图片处理还是批量操作，都能轻松应对。
+**EmImageWater** 是一款基于 Flutter 开发的跨平台图像水印工具，支持为图片添加可自定义的文字水印。无论是单张图片处理还是批量操作，都能轻松应对。特别适用于**合同、证件、文书**等复制件、扫描件水印保护。
 
 **完全本地处理，私密安全，跨平台支持，安全使用！**
 
 **EmImageWater** is a cross-platform image watermark tool built with Flutter, supporting customizable text watermarks for images. Whether processing single images or batch operations, it handles them with ease. <a href="README_EN.md">English Readme</a>
+
+### 界面预览
+
+<p align="center">
+  <img src="docs/screen.png" width="800" alt="EmImageWater 界面预览">
+</p>
+
+<p align="center">
+  <em>简洁直观的用户界面，实时预览水印效果</em>
+</p>
 
 ### 主要特性
 
