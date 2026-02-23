@@ -9,7 +9,7 @@ on:
   workflow_dispatch: # 允许手动触发
 
 env:
-  FLUTTER_VERSION: '3.38.9'
+  FLUTTER_VERSION: '3.38.3'
   APP_NAME: 'em_image_water'
   APP_ID: com.emeric.image_water
   RELEASE_NAME: "Release ${{ github.ref_name }}"
