@@ -60,11 +60,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 4. 手动 Git 配置 Flutter SDK
+      # 4. 手动 Git 配置 Flutter SDK 
+      #   UOS 环境下使用 subosito/flutter-action 似乎有问题，手动GIT安装
       - name: Setup Flutter SDK via Git
         run: |
           echo "Cloning Flutter SDK..."
-          git clone https://github.com/flutter/flutter.git --depth 1 -b stable _flutter
+          # 使用指定的 Flutter 版本标签
+          git clone https://github.com/flutter/flutter.git --depth 1 -b $FLUTTER_VERSION _flutter
           # 配置环境变量
           echo "$GITHUB_WORKSPACE/_flutter/bin" >> $GITHUB_PATH
           # 标记目录安全，防止 git 报错
